@@ -24,7 +24,6 @@ def get_file_index(indir, postfix):
     for root, dirs, files in os.walk(indir):
         print(i)
 
-        i+=1
         for name in files:
             if postfix in name:
                 file_list.append(os.path.join(root, name))
