@@ -28,7 +28,7 @@ def get_file_index(indir, postfix):
             if postfix in name:
                 file_list.append(os.path.join(root, name))
     return file_list
-i=555
+i=55
 args=parse_args()
 
 li_st=get_file_index(args.indir,".jpg")
