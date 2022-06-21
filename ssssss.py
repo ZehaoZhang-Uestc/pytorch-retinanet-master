@@ -23,11 +23,7 @@ def get_file_index(indir, postfix):
     i=1
     for root, dirs, files in os.walk(indir):
         print(i)
-        print(root)
-        print('*****************')
-        print(dirs)
-        print('*****************')
-        print(files)
+
         i+=1
         for name in files:
             if postfix in name:
